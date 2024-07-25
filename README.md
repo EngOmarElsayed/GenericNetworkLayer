@@ -98,12 +98,13 @@ let resultedData = try await genericNetworkLayer.data(from: endpoint)
 ```
 
 ### Testing <a name="section-2"></a>
-For the testing part all you have to do to test the `GenricNetworkLayer` implementation is to make a subclass of the `URlProtocol` for refrence look at the 
+For the testing part all you have to do to test the `GenricNetworkLayer` implementation is to make a subclass of the `URlProtocol` for refrence look at the [GenericNetworkLayerTests.swift](https://github.com/EngOmarElsayed/GenericNetworkLayer/blob/main/Tests/GenericNetworkLayerTests/GenericNetworkLayerTests.swift)
 
-## RemovingStoredObjects <a name="section-3"></a>
-
+## Future Updates <a name="section-3"></a>
+- Adding more URlSession methods to the struct.
+- Scalible for any app size
 
 ## Author <a name="conclusion"></a>
-This pacakge was created by [Eng.Omar Elsayed](https://www.deveagency.com/) to help the iOS comuntity and make there life easir. To contact me email me at eng.omar.elsayed@hotmail.com
+This pacakge was created by [Eng.Omar Elsayed](https://www.deveagency.com/) to help the iOS comuntity and make there life easir. if you have any suggestions contact me at eng.omar.elsayed@hotmail.com
 
 
