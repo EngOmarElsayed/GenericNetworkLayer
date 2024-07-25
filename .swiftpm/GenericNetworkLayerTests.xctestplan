@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "64501EC4-B0EA-4A4F-88EB-2C474796E03E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "GenericNetworkLayerTests",
+        "name" : "GenericNetworkLayerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
