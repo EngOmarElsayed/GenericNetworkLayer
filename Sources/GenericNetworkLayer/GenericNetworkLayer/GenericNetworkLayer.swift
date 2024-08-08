@@ -31,7 +31,7 @@ public struct GenericNetworkLayer {
   public init() {}
   
   /// This method takes  endpoint object that conforms to EndPointProtocol, output the result decode to the generic type T and the statusCode in a tuple
-  public func data<T: Codable>(for endpoint: EndPointProtocol) async throws -> (result: T, statusCode: Int) where T: Codable {
+  public func data<T: Decodable>(for endpoint: EndPointProtocol) async throws -> (result: T, statusCode: Int) where T: Decodable {
     let result = try await preformNetworkRequest(for: endpoint)
     return (try decoder.decode(T.self, from: result.resultedData), result.statusCode)
   }
