@@ -72,13 +72,7 @@ fileprivate extension GenericNetworkLayer {
     let statusCode = response.statusCode
     
     switch statusCode {
-    case 100...103:
-      return statusCode
-      
-    case 200...226:
-      return statusCode
-      
-    case 300...308:
+    case 100...308:
       return statusCode
       
     case 400...451:
