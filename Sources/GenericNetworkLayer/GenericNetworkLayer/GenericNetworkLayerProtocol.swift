@@ -22,7 +22,7 @@
 
 import Foundation
 
-protocol GenericNetworkLayerProtocol {
+public protocol GenericNetworkLayerProtocol {
   func data<T: Decodable>(for endpoint: EndPointProtocol) async throws -> (result: T, statusCode: Int) where T: Decodable
   func data(from endPoint: EndPointProtocol) async throws -> GenericNetworkLayer.urlDataResult
 }
