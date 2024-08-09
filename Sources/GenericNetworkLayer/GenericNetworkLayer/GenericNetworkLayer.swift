@@ -23,7 +23,7 @@
 import Foundation
 
 /// This struct contains all the networking functions
-public struct GenericNetworkLayer {
+public struct GenericNetworkLayer: GenericNetworkLayerProtocol {
   private let urlSession = URLSession.shared
   private let decoder = JSONDecoder()
   
